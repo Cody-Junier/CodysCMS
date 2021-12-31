@@ -1,0 +1,26 @@
+{
+  "name": "codyscms",
+  "version": "1.0.0",
+  "description": "GIVEN a command-line application that accepts user input\r WHEN I start the application\r THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cody-Junier/CodysCMS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cody-Junier/CodysCMS/issues"
+  },
+  "homepage": "https://github.com/Cody-Junier/CodysCMS#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15"
+  }
+}
